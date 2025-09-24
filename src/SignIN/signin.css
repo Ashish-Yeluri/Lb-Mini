@@ -1,0 +1,38 @@
+
+
+.main {
+  width: 400px;
+  margin: 100px auto;
+  color: blue;
+  border: 1px solid black;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form div,
+form label,
+form input {
+  display: block;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+button{
+  margin-left: 150px;
+  width: 80px;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid black;
+}

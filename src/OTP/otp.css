@@ -1,0 +1,35 @@
+.otp-main {
+  width: 400px;
+  margin: 100px auto;
+  color: blue;
+  border: 1px solid black;
+  background: linear-gradient(135deg, #89f7fe 0%, #33efb7 100%);
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+form h2 {
+  margin-bottom: 20px;
+}
+
+.otp-code {
+  font-size: 15px;
+  font-style: italic;
+  margin-bottom: 20px;
+  color: rgb(233, 155, 54)
+}
+
+input{
+  color: cadetblue;
+}
+
+button {
+  width: 80px;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid black;
+  cursor: pointer;
+  color: blueviolet;
+}
