@@ -50,12 +50,32 @@
 }
 
 .fetch img {
-  height: 100%;
-  width: 100%;
+  height: 200px;
+  width: 200px;
+  border-radius: 8px;
   object-fit: cover;
 }
 
-button{
+.button{  
   margin: 5px 80px 10px 10px;
-  width: 100px;
+  width: 200px;
+
 }
+
+.butt {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5px;
+  width: auto;
+  margin-bottom: 10px;
+}
+
+
+.butt button {
+  margin: 0;
+  font-size: small;
+  width: 90px;
+  color: white;
+  background: linear-gradient(to right, #a53b72, #a27ea9);
+} 

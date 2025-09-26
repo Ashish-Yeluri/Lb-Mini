@@ -1,57 +1,3 @@
-// import React, { useState, useEffect } from 'react';
-// import { useNavigate } from 'react-router-dom'
-// import './otp.css';
-
-// function Otp() {
-//   const [generatedOtp, setGeneratedOtp] = useState('');
-//   const [enteredOtp, setEnteredOtp] = useState('');
-//   var navigate = useNavigate()
-
-//   useEffect(() => {
-//     const otp = Math.floor(1000 + Math.random() * 9000);
-//     setGeneratedOtp(otp);
-//   }, []);
-
-//   const handleSubmit = (e) => {
-//     e.preventDefault();
-//     if (enteredOtp === String(generatedOtp)) {
-//       alert('Successfully logged in!');
-//       navigate('/FetchParent')
-//     } else {
-//       alert('Invalid OTP! Please try again.');
-//     }
-//   }
-
-//   return (
-//     <div className='otp-main'>
-//       <form>
-//         <p className='otp-code'>Your OTP : {generatedOtp}</p>
-//         <input type='text' value={enteredOtp} onChange={(e) => setEnteredOtp(e.target.value)} maxLength={4} placeholder="Enter OTP "/>
-//         <button onClick={handleSubmit}>Submit</button>
-//       </form>
-//     </div>
-//   );
-// }
-
-// export default Otp;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './otp.css';
@@ -102,7 +48,7 @@ function Otp() {
   return (
     <div className='otp-main'>
       <form>
-        <p className='otp-code'>Your OTP : {generatedOtp}</p>
+        <p className='otp-code'>Your OTP : <span className='otp-gen'>{generatedOtp}</span> </p>
         <input
           type='text'
           value={enteredOtp}

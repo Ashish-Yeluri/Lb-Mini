@@ -18,6 +18,9 @@ form input {
 label {
   margin-bottom: 5px;
   font-weight: bold;
+  background: linear-gradient(to right, #0e919b, #977e97);
+  background-clip:text;
+  color: transparent;
 }
 
 input {
@@ -31,13 +34,14 @@ input {
 
 button {
   margin-left: 150px;
-  width: 80px;
+  width: 100px;
   height: 30px;
   border-radius: 10px;
   border: 1px solid black;
   cursor: pointer;
   background-color: white;
   font-weight: bold;
+  font-size: large;
 }
 
 .error {
@@ -45,4 +49,52 @@ button {
   margin-bottom: 10px;
   font-size: 14px;
   text-align: center;
+}
+
+.creation{
+  width: 200px;
+  display: inline;
+  border: none;
+  background: none;
+  border: none;
+  background: linear-gradient(to right, #d82a5c, #d678d6);
+  background-clip: text;
+  color: transparent;
+  font-family: cursive;
+  font-size: 20px;
+  margin-left: 0px;
+  padding-right:20px ;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.creation2 {
+  width: 200px;
+  display: inline;
+  border: none;
+  background: none;
+  border: none;
+  background: linear-gradient(to right, #d82a5c, #d678d6);
+  background-clip: text;
+  color: transparent;
+  font-family: cursive;
+  font-size: 20px;
+  margin-left: 0px;
+  padding-right: 100px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.forgot{
+  width: 180px;
+  margin-left: 100px;
+  color: white;
+  background: linear-gradient(to right, #9c589c, #878587);
+}
+
+.log{
+  color: white;
+  background: linear-gradient(to right, #9a2d9a, #4f344f);
+  background-clip: text;
+  color: transparent
 }

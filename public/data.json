@@ -1,26 +1,57 @@
 [
   {
     "id":1,
-    "img" : "iphone.jpg"
+    "img" : "/Images/iphone.jpg",
+    "name": "Iphone - 17pro Max",
+    "price": "99,999"
   },
   {
     "id":2,
-    "img" : "lanter.jpg"
+    "img" : "/Images/Balenciaga.webp",
+    "name": "Balenciaga Hoodie",
+    "price": "2,49,599"
   },
   {
     "id":3,
-    "img" : "music.jpg"
+    "img" : "/Images/oneplus.jpg",
+    "name": "OnePlus 138 cm (55 inch)",
+    "price": "39,499"
   },
   {
     "id": 4,
-    "img": "image.png"
+    "img": "/Images/macbook-pro.webp",
+    "name": "Macbook-Pro M2 Chip",
+    "price": "1,99,999"
+
   },
   {
     "id": 5,
-    "img": "image.png"
+    "img": "/Images/Airpods.avif",
+    "name": "Airpods Pro Gen3",
+    "price": "24,999"
   },
   {
     "id": 6,
-    "img": "image.png"
+    "img": "/Images/Apple-Watch.jpg",
+    "name":"Apple Watch",
+    "price": "49,999"
+  },
+  {
+    "id": 7,
+    "img": "/Images/lee-cooper.webp",
+    "name":"Lee-Cooper Loafers",
+    "price": "1,999"
+  },
+  {
+    "id": 8,
+    "img": "/Images/nautica.webp",
+    "name":"Nautica_Voyage Men Perfume",
+    "price": "1,999"
+  },
+  {
+    "id": 9,
+    "img": "/Images/soundbar.webp",
+    "name":"Boat Soundbar 3500, 500Watts",
+    "price": "13,499"
   }
 ]

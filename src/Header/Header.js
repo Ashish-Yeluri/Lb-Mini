@@ -1,5 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
+import logo from '../Images/logo.jpg'
 import './style.css'
 import { useSelector } from 'react-redux';
 
@@ -15,7 +16,7 @@ function Header() {
     
     <div className="leftheader">
       <ul>
-        <li><NavLink to='/ashish-store' style={({isActive}) =>{return isActive ? {color: 'green'}:{color:'white'}}} >Ashu Store</NavLink></li>
+        <li><img src={logo} alt="Ashu Store" style={{ width: '200px', height: '30px', marginTop: '5px' }}/></li>
       </ul>
     </div>
 
@@ -23,9 +24,9 @@ function Header() {
       <ul>
         <li><NavLink to='/home' style={({isActive}) =>{return isActive ? {color: 'green'}:{color:'white'}}} >Home</NavLink></li>
         <li><NavLink to='/about' style={({isActive}) =>{return isActive ? {color: 'green'}:{color:'white'}}} >About</NavLink></li>
-        <li><NavLink to='/signin' style={({ isActive }) => { return isActive ? { color: 'green' } : { color: 'white' } }} >Sign IN</NavLink></li>
+        <li> <NavLink to="/products" style={({ isActive }) => isActive ? { color: "green" } : { color: "white" }} > Products </NavLink> </li>
+        <li><NavLink to='/login' style={({ isActive }) => { return isActive ? { color: 'green' } : { color: 'white' } }} >Log IN</NavLink></li>
         <li> <NavLink to="/cart" style={({ isActive }) => isActive ? { color: "green" } : { color: "white" }} > 🛒 {totalItems} </NavLink> </li>
-
       </ul>
       </div>
       

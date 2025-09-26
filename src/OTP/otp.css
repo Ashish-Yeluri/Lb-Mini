@@ -18,7 +18,7 @@ form h2 {
   font-size: 15px;
   font-style: italic;
   margin-bottom: 20px;
-  color: rgb(233, 155, 54)
+  color: rgb(79, 50, 13)
 }
 
 input{
@@ -32,4 +32,13 @@ button {
   border: 1px solid black;
   cursor: pointer;
   color: blueviolet;
+}
+
+
+.otp-gen{
+  font-style: normal;
+  font-size: 30px;
+  background: linear-gradient(135deg, #9d6aa1 0%, #82154a 100%);
+  background-clip: text;
+  color: transparent;
 }

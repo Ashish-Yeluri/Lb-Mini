@@ -1,0 +1,115 @@
+
+.placed {
+  width: 750px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background: linear-gradient(to right, #e0c9d5, #97bfd6);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.items {
+  margin-bottom: 20px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #b16b59, #e0bde7);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+}
+
+.qty-btn {
+  width: 30px;
+  height: 30px;
+  border-radius: 6px;
+  border: none;
+  background: linear-gradient(to right, #572752, #e0bde7);
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 15px;
+}
+
+.qty-btn:hover {
+  background-color: #555;
+}
+
+.qty {
+  margin-left: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.price {
+  margin-left: 35px;
+  font-weight: bold;
+  color: #222;
+}
+
+.summary {
+  font-weight: bold;
+  /* text-align: right; */
+  margin-top: 20px;
+}
+
+.remove-btn {
+  background: linear-gradient(to right, #568170, #423445);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-right: 30px;
+}
+
+.remove-btn:hover {
+  background: #d9363e;
+}
+
+.clear-btn {
+  background: linear-gradient(to right, #021829, #e0bde7);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin: 5px;
+}
+
+.clear-btn:hover {
+  background: #555;
+}
+
+.empty {
+  text-align: center;
+  font-size: 18px;
+  color: #666;
+}
+
+
+
+.entire{
+  display: flex;
+  flex-direction: row;
+}
+
+.left{
+  margin-left: 40px;
+}
+
+.right {
+  margin-left: 200px;
+}

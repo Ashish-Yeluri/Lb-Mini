@@ -4,6 +4,7 @@
   width: 400px;
   margin: 100px auto;
   color: blue;
+  /* background: linear-gradient(to right, #9c589c, #878587); */
   border: 1px solid black;
   padding: 30px;
   border-radius: 8px;
@@ -35,4 +36,10 @@ button{
   height: 30px;
   border-radius: 10px;
   border: 1px solid black;
+}
+
+.sign{
+  background: linear-gradient(to right, #9c589c, #878587);
+  background-clip: text;
+  color: transparent
 }

@@ -3,8 +3,10 @@ import { useDispatch, useSelector } from 'react-redux';
 import { fetchUser } from './userSlice';
 import './fetch.css';
 import { addToCart } from '../Cart/Slice';
+import { useNavigate } from 'react-router-dom';
 
 function Fetch() {
+  var navigate = useNavigate()
   const dispatch = useDispatch();
   const { loading, data, error } = useSelector((state) => state.users);
 
@@ -31,6 +33,11 @@ function Fetch() {
   const handleAddToCart = (product) => {
     dispatch(addToCart(product));
   };
+
+  const buy = (e) => {
+    e.preventDefault()
+    navigate('/buy-now')
+  }
 
   // Loading & Error states
   if (loading) return <p>...Loading</p>;
@@ -69,10 +76,14 @@ function Fetch() {
             {data.map((user) => (
               <div className='fetch' key={user.id}>
                 <img src={user.img} alt={user.name || `user-${user.id}`} />
-                <div className='button-container'>
+                <p style={{color:"white"}}>{user.name}</p>
+                <p style={{color:"white"}}>₹{user.price}/-</p>
+                 
+                <div className='butt'>
                   <button onClick={() => handleAddToCart(user)}> Add to Cart </button>
-                  <button>Buy Now</button>
+                  <button onClick={buy}>Buy Now</button>
                 </div>
+                  
               </div>
             ))}
           </div>
