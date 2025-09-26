@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Lb-Mini/static/css/main.94f57bb1.css",
+    "main.js": "/Lb-Mini/static/js/main.9f13babc.js",
+    "static/media/listening.jpg": "/Lb-Mini/static/media/listening.08a5446f2630f17b6421.jpg",
+    "static/media/Google-Pay.png": "/Lb-Mini/static/media/Google-Pay.75ff9dcc6e7c2dc4008c.png",
+    "static/media/quality.jpg": "/Lb-Mini/static/media/quality.7f28f3b3097634c70cc6.jpg",
+    "static/media/cash on delivery.webp": "/Lb-Mini/static/media/cash on delivery.d0ca5a3d4bf85bffa555.webp",
+    "static/media/PhonePe.webp": "/Lb-Mini/static/media/PhonePe.257de3c8e6f78b228c56.webp",
+    "static/media/logo.jpg": "/Lb-Mini/static/media/logo.14f5e91b12c645983d74.jpg",
+    "static/media/24.jpg": "/Lb-Mini/static/media/24.d1f570cdf84a9bf8e4d3.jpg",
+    "static/media/fast.webp": "/Lb-Mini/static/media/fast.d27f646fd96ad0e830f0.webp",
+    "static/media/Paytm.svg": "/Lb-Mini/static/media/Paytm.58d7927df952bc47d354c88df131d10c.svg",
+    "index.html": "/Lb-Mini/index.html",
+    "main.94f57bb1.css.map": "/Lb-Mini/static/css/main.94f57bb1.css.map",
+    "main.9f13babc.js.map": "/Lb-Mini/static/js/main.9f13babc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.94f57bb1.css",
+    "static/js/main.9f13babc.js"
+  ]
+}
