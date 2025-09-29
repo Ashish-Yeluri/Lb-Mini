@@ -1,35 +1,43 @@
-html,
-body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-.app {
-  width: 100%;
+.application {
+  width: 100vw;
   min-height: 100vh;
-  /* height: 100%; */
+  max-width: none;
+  /* Remove or do not use max-width here */
+  margin: 0;
+  /* Remove centering from .app itself */
   box-sizing: border-box;
   background: url('./listening.jpg') no-repeat center center fixed;
   background-size: cover;
   position: relative;
   overflow-y: auto;
   overflow-x: hidden;
+  padding: 20px;
+  /* Default padding */
 }
 
-.app::before {
-  content: '';
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  backdrop-filter: blur(2px);
-  background-color: rgba(0, 0, 0, 0.3);
-  z-index: 1;
+/* Center content inside */
+.content-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.app>* {
-  position: relative;
-  z-index: 2;
+/* Mobile */
+@media (max-width: 480px) {
+  .application {
+    padding: 10px;
+  }
+}
+
+/* Tablet */
+@media (min-width: 481px) and (max-width: 768px) {
+  .application {
+    padding: 15px;
+  }
+}
+
+/* Laptop/Desktop */
+@media (min-width: 769px) {
+  .application {
+    padding: 20px;
+  }
 }
