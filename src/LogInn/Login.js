@@ -78,40 +78,24 @@ function Login() {
     <div className='main'>
       <form>
         <label>Name</label>
-        <input
-          type='text'
-          name='name'
-          value={formData.name}
-          onChange={handleChange}
-        />
+        <input type='text' name='name' value={formData.name} onChange={handleChange}/>
 
         <label>Password</label>
-        <input
-          type='password'
-          name='password'
-          value={formData.password}
-          onChange={handleChange}
-        />
+        <input type='password' name='password' value={formData.password} onChange={handleChange}/>
 
-        <button onClick={handleLogin} className='log'>
-          Log IN
-        </button>
+        <button onClick={handleLogin} className='log'> Log IN </button>
       </form>
 
-      <p style={{ color: 'black' }}>
-        Don’t have an account?{' '}
-        <button className='creation' onClick={createAcc}>
-          Create a Account
-        </button>
+      <p style={{ color: 'black' }}> Don’t have an account?{' '}
+        <button className='creation' onClick={createAcc}> Create a Account </button>
       </p>
-      <p style={{ color: 'black' }}>
-        Forgot Password?{' '}
-        <button className='creation2' onClick={forgotpass}>
-          Reset it.
-        </button>
+
+      <p style={{ color: 'black' }}> Forgot Password?{' '}
+         <button className='creation2' onClick={forgotpass}> Reset it. </button>
       </p>
+      
     </div>
   );
 }
 
-export default Login;
+export default Login

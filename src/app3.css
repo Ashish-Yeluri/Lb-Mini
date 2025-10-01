@@ -1,0 +1,24 @@
+.app3 {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Common wrapper – offset for fixed header */
+.common {
+  padding-top: 60px;
+  /* default for laptop/desktop */
+}
+
+/* Tablet (≤1024px) */
+@media (max-width: 1024px) {
+  .common {
+    padding-top: 55px;
+  }
+}
+
+/* Mobile (≤768px) */
+@media (max-width: 768px) {
+  .common {
+    padding-top: 50px;
+  }
+}

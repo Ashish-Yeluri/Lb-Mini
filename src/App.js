@@ -6,9 +6,11 @@ import './App.css'
 function App() {
   return (
     <div>
-      <div className="application">
-      <Parent />
-    </div>
+
+          <div className="application">
+              <Parent />
+          </div>
+
       <Header />
     </div>   
   )
