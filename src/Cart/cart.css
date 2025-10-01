@@ -112,3 +112,100 @@
   font-weight: bold;
   color: #222;
 }
+
+
+
+
+
+/* RESPONSIVE DESIGN */
+/* ------------------- Tablet Styles ------------------- */
+@media (max-width: 1024px) and (min-width: 601px) {
+  .cart-page {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .cart-item {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  .remove-btn {
+    margin-right: 0;
+    margin-top: 10px;
+  }
+
+  .quantity-controls {
+    margin-top: 10px;
+  }
+
+  .price {
+    margin-left: 0;
+    margin-top: 5px;
+  }
+
+  .cart-summary {
+    text-align: center;
+    margin-top: 10px;
+  }
+}
+
+
+/* ------------------- Mobile Styles ------------------- */
+@media (max-width: 600px) {
+  .cart-page {
+    width: 95%;
+    margin: 50px auto 20px auto;
+    padding: 10px;
+  }
+
+  .cart-item {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+
+  .remove-btn {
+    width: 100%;
+    margin: 10px 0 0 0;
+    padding: 8px 0;
+  }
+
+  .quantity-controls {
+    width: 100%;
+    justify-content: flex-start;
+    margin-top: 5px;
+  }
+
+  .qty-btn {
+    width: 25px;
+    height: 25px;
+    font-size: 16px;
+    margin-left: 10px;
+  }
+
+  .qty {
+    margin-left: 8px;
+    font-size: 14px;
+  }
+
+  .price {
+    margin-left: 0;
+    margin-top: 5px;
+    font-size: 14px;
+  }
+
+  .cart-summary {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .clear-btn {
+    width: 100%;
+    margin: 10px 0 0 0;
+    padding: 8px 0;
+  }
+}

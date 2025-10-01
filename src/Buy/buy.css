@@ -56,3 +56,79 @@ button{
   font-size: 16px;
   color: black;
 }
+
+
+
+/* RESPONSIVE DESIGN */
+/* ------------------- Tablet Styles ------------------- */
+@media (max-width: 1024px) and (min-width: 601px) {
+  .buy {
+    width: 60%;
+    margin: 80px auto 30px auto;
+    /* centered */
+    padding: 15px;
+  }
+
+  button {
+    width: 170px;
+    margin: 10px auto 0 auto;
+    display: block;
+  }
+
+  .btn {
+    width: 120px;
+    margin: 20px auto 0 auto;
+    display: block;
+  }
+
+  .pay {
+    padding-left: 20px;
+    gap: 20px;
+  }
+
+  .radio-label span {
+    font-size: 15px;
+  }
+
+  .radio-label input[type="radio"] {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+/* ------------------- Mobile Styles ------------------- */
+@media (max-width: 600px) {
+  .buy {
+    width: 75%;
+    margin: 50px auto 30px auto;
+    padding: 10px;
+  }
+
+  button {
+    width: 60%;
+    margin: 10px 0 0 70px;
+  }
+
+  .btn22 {
+    width: 50%;
+    margin: 30px 0px 10px 100px;
+  }
+
+  .pay {
+    padding-left: 10px;
+    gap: 15px;
+  }
+
+  .radio-label {
+    gap: 6px;
+  }
+
+  .radio-label span {
+    font-size: 14px;
+  }
+
+  .radio-label input[type="radio"] {
+    width: 14px;
+    height: 14px;
+  }
+}

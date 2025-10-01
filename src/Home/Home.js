@@ -19,15 +19,30 @@ function Home() {
   return (
     <div className='mains'>
       <div className='scroll-container'>
-        <div className='scroll-content'> 🎉 Welcome to Ashish Store – Big Offers Everyday! 🎁 | Flat 50% OFF  onElectronics 🔥 | Free Shipping 🚚 | Limited Time Deals ⏰ </div>
+        <div className='scroll-content'>
+          {' '}
+          🎉 Welcome to Ashish Store – Big Offers Everyday! 🎁 | Flat 50% OFF
+          onElectronics 🔥 | Free Shipping 🚚 | Limited Time Deals ⏰{' '}
+        </div>
       </div>
 
-        <h1 className='title'> 🚀 Ashish <span className='highlight'>Store 🚀</span> </h1>
-        <p className='subtitle'> Your one-stop destination for fashion, gadgets & more ✨ </p>
+      <h1 className='title'>
+        💎{' '}
+        <span style={{ fontFamily: "'Dancing Script', cursive" }}>LongBow</span>{' '}
+        <span className='highlight'>Store 💎</span>{' '}
+      </h1>
+      <p className='subtitle'>
+        {' '}
+        Your one-stop destination for fashion, gadgets & more ✨{' '}
+      </p>
 
       <div className='buttons'>
-        <button className='btn primary' onClick={shop}>🛒 Shop Now</button>
-        <button className='btn secondary' onClick={shop2}>⭐ Explore Deals</button>
+        <button className='btn primary' onClick={shop}>
+          🛒 Shop Now
+        </button>
+        <button className='btn secondary' onClick={shop2}>
+          ⭐ Explore Deals
+        </button>
       </div>
 
       <div className='text-scroll-box'>
@@ -41,7 +56,8 @@ function Home() {
       </div>
 
       <footer className='footer'>
-        © {new Date().getFullYear()} Ashish Store | Made with ❤️ by Ashu
+        © {new Date().getFullYear()} Ashish Store | Made with ❤️ by Ashish
+        Yeluri
       </footer>
     </div>
   );

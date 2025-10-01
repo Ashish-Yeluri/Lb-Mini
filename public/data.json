@@ -1,13 +1,13 @@
 [
   {
     "id":1,
-    "img" : "/Photos/Iphone.jpg",
+    "img" : "/Photos/iphone.jpg",
     "name": "Iphone - 17pro Max",
     "price": "99,999"
   },
   {
     "id":2,
-    "img" : "/Photos/Balenciaga.webp",
+    "img" : "/Photos/balenciaga.webp",
     "name": "Balenciaga Hoodie",
     "price": "2,49,599"
   },
@@ -26,13 +26,13 @@
   },
   {
     "id": 5,
-    "img": "/Photos/Airpods.avif",
+    "img": "/Photos/airpods.avif",
     "name": "Airpods Pro Gen3",
     "price": "24,999"
   },
   {
     "id": 6,
-    "img": "/Photos/Apple-Watch.jpg",
+    "img": "/Photos/apple-Watch.jpg",
     "name":"Apple Watch",
     "price": "49,999"
   },

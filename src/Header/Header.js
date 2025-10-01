@@ -12,7 +12,7 @@ function Header() {
 
   
   return (
-    <div className="header">
+<div className="header">
     
     <div className="leftheader">
       <ul>
@@ -31,6 +31,7 @@ function Header() {
       </div>
       
   </div>
+    
   )
 }
 

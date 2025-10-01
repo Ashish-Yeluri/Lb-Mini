@@ -28,7 +28,7 @@ function Parent() {
         <Route path='/cart' element={<CartPage />} />
         <Route path='/buy-now' element={<Buy />} />
         <Route path='/payment' element={<Buy2 />} />
-        <Route path='/orderPlaced' element={<Placed/>} />
+        <Route path='/orderPlaced' element={<Placed />} />
       </Routes>
     </div>
   );

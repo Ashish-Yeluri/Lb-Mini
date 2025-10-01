@@ -11,11 +11,11 @@ var root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <Provider store={Store}>
-    <BrowserRouter>
+    <BrowserRouter basename='/Lb-Mini'>
       <App />
       {/* <App2/> */}
       {/* <App3/> */}
-      <ToastContainer/>
-  </BrowserRouter>
+      <ToastContainer />
+    </BrowserRouter>
   </Provider>
-)
+);

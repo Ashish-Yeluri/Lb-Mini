@@ -10,7 +10,6 @@ function App() {
           <div className="application">
               <Parent />
           </div>
-
       <Header />
     </div>   
   )

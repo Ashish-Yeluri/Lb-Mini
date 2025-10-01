@@ -67,7 +67,7 @@ function Buy2() {
 
 
       </div>
-      <button className='btn' onClick={btn}>
+      <button className='btn22' onClick={btn}>
         Place Order
       </button>
     </div>

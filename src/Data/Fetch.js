@@ -5,6 +5,7 @@ import './fetch.css';
 import { addToCart } from '../Cart/Slice';
 import { useNavigate } from 'react-router-dom';
 
+
 function Fetch() {
   var navigate = useNavigate()
   const dispatch = useDispatch();
@@ -75,15 +76,20 @@ function Fetch() {
           <div className='fetch-container'>
             {data.map((user) => (
               <div className='fetch' key={user.id}>
-                <img src={user.img} alt={user.name || `user-${user.id}`} />
-                <p style={{color:"white"}}>{user.name}</p>
-                <p style={{color:"white"}}>₹{user.price}/-</p>
-                 
+                <img
+                  src={process.env.PUBLIC_URL + user.img}
+                  alt={user.name || `user-${user.id}`}
+                />
+                <p style={{ color: 'white' }}>{user.name}</p>
+                <p style={{ color: 'white' }}>₹{user.price}/-</p>
+
                 <div className='butt'>
-                  <button onClick={() => handleAddToCart(user)}> Add to Cart </button>
+                  <button onClick={() => handleAddToCart(user)}>
+                    {' '}
+                    Add to Cart{' '}
+                  </button>
                   <button onClick={buy}>Buy Now</button>
                 </div>
-                  
               </div>
             ))}
           </div>
